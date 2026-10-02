@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hanabi · Animes e Mangás</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="#" data-tab="home">花火 Hanabi</a>
+  <nav id="nav">
+    <button data-tab="home">Início</button>
+    <button data-tab="anime">Animes</button>
+    <button data-tab="manga">Mangás</button>
+    <button data-tab="polls">Enquetes</button>
+    <button data-tab="feedback">Feedback</button>
+    <button data-tab="admin" id="navAdmin" hidden>Painel</button>
+  </nav>
+  <div id="userbox"></div>
+</header>
+
+<main id="app"></main>
+
+<footer class="foot">
+  <span>Hanabi · projeto de fãs, sem fins lucrativos.</span>
+  <a class="discord" href="https://discord.gg/aMRP29tGwy" target="_blank" rel="noopener">Entre no nosso Discord</a>
+</footer>
+
+<a class="discord-float" href="https://discord.gg/aMRP29tGwy" target="_blank" rel="noopener" aria-label="Entrar no Discord">Discord</a>
+
+<dialog id="modal"></dialog>
+<div id="toast" role="status"></div>
+<script src="app.js"></script>
+</body>
+</html>
